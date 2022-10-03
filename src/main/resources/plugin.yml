@@ -1,0 +1,13 @@
+name: LifeSteal
+version: '${project.version}'
+main: fr.lygaen.lifesteal.LifeSteal
+api-version: 1.19
+authors: [ Lygaen ]
+description: A lifesteal plugin
+website: https://github.com/Lygaen
+
+commands:
+  lifereset:
+    usage: /lifereset [player/me]
+    description: Resets the user life status
+    permission: op
